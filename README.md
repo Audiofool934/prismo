@@ -1,6 +1,6 @@
 # Prismo
 
-A little dark side. A lot of color.
+Your friend from the dark side.
 
 Prismo is a small animated prism companion with floating white and rainbow hands.
 It blinks, waves, glides, thinks, and takes the occasional little leap.
