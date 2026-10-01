@@ -48,6 +48,7 @@ The web-compatible v1 file contains the same nine animations, with the two look-
 
 Switch between the nine animations, pause, or select **Follow my pointer** to try the sixteen look directions.
 The demo uses a dark backdrop and works on desktop and mobile.
+Its high-resolution artwork is drawn at your screen's pixel density, while the downloadable pet sheets keep their native upload dimensions.
 For an offline copy, choose **Code > Download ZIP**, extract it, and open `preview.html` in a browser.
 
 An identical [GitHub Pages mirror](https://audiofool.blog/prismo/) is served from `docs/`.
@@ -63,6 +64,7 @@ An identical [GitHub Pages mirror](https://audiofool.blog/prismo/) is served fro
 | [prismo.json](prismo.json) | Sprite dimensions, frame counts, and direction order |
 | [assets/look-directions.png](assets/look-directions.png) | All sixteen look poses at native size |
 | [source/](source/) | Canonical artwork and selected generated animation strips |
+| [source/web-animation/](source/web-animation/) | High-resolution layers, pose data, and the web animation renderer |
 | [SHA256SUMS](SHA256SUMS) | Checksums for the artwork and preview |
 
 ## The design
