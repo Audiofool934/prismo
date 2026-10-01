@@ -2,6 +2,8 @@
 
 Your friend from the dark side.
 
+**[Play with Prismo - Live demo](https://prismo.audiofool.chatgpt.site)**
+
 Prismo is a small animated prism companion with floating white and rainbow hands.
 It blinks, waves, glides, thinks, and takes the occasional little leap.
 
@@ -27,13 +29,11 @@ The web-compatible v1 file contains the same nine animations, with the two look-
 
 ## Preview
 
-**[Play with Prismo](https://audiofool.blog/prismo/)**
-
 Switch between the nine animations, pause, or select **Follow my pointer** to try the sixteen look directions.
 The demo uses a dark backdrop and works on desktop and mobile.
 For an offline copy, choose **Code > Download ZIP**, extract it, and open `preview.html` in a browser.
 
-The live site is served from `docs/` through GitHub Pages.
+An identical [GitHub Pages mirror](https://audiofool.blog/prismo/) is served from `docs/`.
 
 ## Files
 
