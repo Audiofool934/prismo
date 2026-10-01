@@ -9,6 +9,13 @@ It blinks, waves, glides, thinks, and takes the occasional little leap.
 
 ## Get Prismo
 
+**[Adopt Prismo](https://chatgpt.com/s/sharepet_6abe41c226b88191999c142ad5f6f384)**
+
+You can also paste this public link into a ChatGPT Work chat with the Pets plugin and ask: "Adopt this pet."
+Adopting installs your own copy in your pet library.
+
+### Download a sprite sheet
+
 Download the [web-compatible sprite sheet](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet-v1.png).
 In ChatGPT, where Pets are available, go to **Settings > Personalization > Pet**, choose **Upload pet**, and select the downloaded PNG.
 Then choose Prismo as your pet.
