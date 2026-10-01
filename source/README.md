@@ -37,7 +37,8 @@ Some intermediate eye steps are deliberately subtle; the four main directions we
 
 The finished atlas uses generated pixels from these sources.
 The strips were extracted, scaled with consistent proportions, registered, and cleaned of their magenta backgrounds.
-The jump keeps its vertical movement during registration, rising 60 pixels before returning to its original baseline.
+The final placement aligns the tops of the resting eyes with the horizontal centerline at y = 104 in each 192 x 208 pixel cell.
+The jump rises 46 pixels before returning to its original baseline, leaving the full character inside the cell.
 The low hand placement, separate oval shapes, and visible gaps are part of the character design.
 
 For installation, use the finished sprite sheet in the repository root.

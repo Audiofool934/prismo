@@ -27,9 +27,13 @@ The web-compatible v1 file contains the same nine animations, with the two look-
 
 ## Preview
 
-Choose **Code > Download ZIP**, extract it, and open `preview.html` in a browser.
-The preview works offline.
-Switch between the nine animations, pause, change the backdrop, or select **Follow my pointer** to try the sixteen look directions.
+**[Play with Prismo](https://audiofool.blog/prismo/)**
+
+Switch between the nine animations, pause, or select **Follow my pointer** to try the sixteen look directions.
+The demo uses a dark backdrop and works on desktop and mobile.
+For an offline copy, choose **Code > Download ZIP**, extract it, and open `preview.html` in a browser.
+
+The live site is served from `docs/` through GitHub Pages.
 
 ## Files
 
@@ -38,6 +42,7 @@ Switch between the nine animations, pause, change the backdrop, or select **Foll
 | [spritesheet.png](spritesheet.png) | Full v2 sprite sheet, 1536 x 2288 pixels, 73 active frames |
 | [spritesheet-v1.png](spritesheet-v1.png) | Web-compatible v1 sprite sheet, 1536 x 1872 pixels, 57 active frames |
 | [preview.html](preview.html) | Self-contained interactive animation preview |
+| [docs/](docs/) | Public demo hosted at audiofool.blog/prismo/ |
 | [prismo.json](prismo.json) | Sprite dimensions, frame counts, and direction order |
 | [assets/look-directions.png](assets/look-directions.png) | All sixteen look poses at native size |
 | [source/](source/) | Canonical artwork and selected generated animation strips |
@@ -52,6 +57,7 @@ Their outer ends tilt slightly downward, leaving a clear gap between each hand a
 The v2 sheet uses 192 x 208 pixel cells in eight columns.
 Its first nine rows are idle, glide right, glide left, wave, jump, failed, waiting, working, and review.
 The final two rows run clockwise from looking up, in 22.5-degree steps.
+The tops of the resting eyes align with the cell's horizontal centerline, leaving room for a 46-pixel hop.
 
 The artwork was made with OpenAI image generation and assembled from the selected source strips.
 The final v2 sheet passed structural, transparency, eye-clearance, and floating-hand separation checks across all 73 frames.
