@@ -4,7 +4,7 @@ Your friend from the dark side.
 
 **[Play with Prismo - Live demo](https://prismo.audiofool.chatgpt.site)**
 
-Prismo is a small animated prism companion with floating white and rainbow hands.
+Prismo is a small animated companion for **ChatGPT Pets and dots**, with floating white and rainbow hands.
 It blinks, waves, glides, thinks, and takes the occasional little leap.
 
 ![Prismo cycling through its nine animations](assets/prismo.gif)
@@ -13,17 +13,33 @@ It blinks, waves, glides, thinks, and takes the occasional little leap.
 
 **[Adopt Prismo](https://chatgpt.com/s/sharepet_6abe41c226b88191999c142ad5f6f384)**
 
-You can also paste this public link into a ChatGPT Work chat with the Pets plugin and ask: "Adopt this pet."
-Adopting installs your own copy in your pet library.
+Open the shared page and sign in to ChatGPT if prompted, then follow the adoption flow available for your account.
+Adoption adds an editable copy to your pet library; select Prismo afterward to make it active.
 
-### Download a sprite sheet
+In a ChatGPT Work chat with the **Pets plugin enabled**, you can also ask:
 
-Download the [web-compatible sprite sheet](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet-v1.png).
-In ChatGPT, where Pets are available, go to **Settings > Personalization > Pet**, choose **Upload pet**, and select the downloaded PNG.
-Then choose Prismo as your pet.
-See the [official Pets guide](https://learn.chatgpt.com/docs/pets) for current availability and settings.
+> Adopt Prismo from https://chatgpt.com/s/sharepet_6abe41c226b88191999c142ad5f6f384
 
-For a Pets workflow that supports the newer v2 format, use [spritesheet.png](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet.png).
+### Upload in ChatGPT web
+
+Where Pets are available for your account and workspace:
+
+1. Open the [web-compatible sprite sheet](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet-v1.png) and save it as a PNG.
+2. In ChatGPT web, open **Settings > Personalization > Pet > Select pet**, then choose **Upload pet**.
+3. Upload the saved PNG and select Prismo.
+
+This transparent v1 PNG is 1536 x 1872 pixels and under 1 MiB, matching the format in the [official Pets guide](https://learn.chatgpt.com/docs/pets).
+The web upload setting is separate from the desktop app's **Settings > Pets**.
+
+### Use Prismo as your ChatGPT dot
+
+Prismo can also be used as your **ChatGPT dot's appearance** where custom pet selection is available.
+After adding Prismo to your library, choose it from your dot's available appearance options.
+Dot availability and customization controls vary by account and app version; see the [official dot guide](https://learn.chatgpt.com/docs/dots).
+
+### Full sprite sheet
+
+For clients and Pets workflows that accept the newer v2 format, use [spritesheet.png](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet.png).
 It includes all nine animations plus sixteen look directions.
 The web-compatible v1 file contains the same nine animations, with the two look-direction rows omitted.
 
