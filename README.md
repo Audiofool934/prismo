@@ -4,8 +4,9 @@ Your friend from the dark side.
 
 **[Play with Prismo - Live demo](https://prismo.audiofool.chatgpt.site)**
 
-Prismo is a small animated companion for **ChatGPT Pets and dots**, with floating white and rainbow hands.
+Prismo is a small animated companion for **ChatGPT pets and dots**, with floating white and rainbow hands.
 It blinks, waves, glides, thinks, and takes the occasional little leap.
+Inspired by the prism and spectrum imagery of Pink Floyd's *The Dark Side of the Moon*.
 
 ![Prismo cycling through its nine animations](assets/prismo.gif)
 
@@ -22,13 +23,13 @@ In a ChatGPT Work chat with the **Pets plugin enabled**, you can also ask:
 
 ### Upload in ChatGPT web
 
-Where Pets are available for your account and workspace:
+Where pets are available for your account and workspace:
 
 1. Open the [web-compatible sprite sheet](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet-v1.png) and save it as a PNG.
 2. In ChatGPT web, open **Settings > Personalization > Pet > Select pet**, then choose **Upload pet**.
 3. Upload the saved PNG and select Prismo.
 
-This transparent v1 PNG is 1536 x 1872 pixels and under 1 MiB, matching the format in the [official Pets guide](https://learn.chatgpt.com/docs/pets).
+This transparent v1 PNG is 1536 x 1872 pixels and under 1 MiB, matching the format in the [official pets guide](https://learn.chatgpt.com/docs/pets).
 The web upload setting is separate from the desktop app's **Settings > Pets**.
 
 ### Use Prismo as your ChatGPT dot
@@ -39,7 +40,7 @@ Dot availability and customization controls vary by account and app version; see
 
 ### Full sprite sheet
 
-For clients and Pets workflows that accept the newer v2 format, use [spritesheet.png](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet.png).
+For clients and pet workflows that accept the newer v2 format, use [spritesheet.png](https://raw.githubusercontent.com/Audiofool934/prismo/main/spritesheet.png).
 It includes all nine animations plus sixteen look directions.
 The web-compatible v1 file contains the same nine animations, with the two look-direction rows omitted.
 
