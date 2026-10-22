@@ -79,7 +79,7 @@ The demo uses a dark backdrop and works on desktop and mobile.
 Its high-resolution artwork is drawn at your screen's pixel density, while the downloadable pet sheets keep their native upload dimensions.
 For an offline copy, choose **Code > Download ZIP**, extract it, and open `preview.html` in a browser.
 
-An identical [GitHub Pages mirror](https://blog.audiofool.ai/prismo/) is served from `docs/`.
+An identical [GitHub Pages mirror](https://audiofool934.github.io/prismo/) is served from `docs/`.
 
 ## Files
 
@@ -88,7 +88,7 @@ An identical [GitHub Pages mirror](https://blog.audiofool.ai/prismo/) is served 
 | [spritesheet.png](spritesheet.png) | Full v2 sprite sheet, 1536 x 2288 pixels, 73 active frames |
 | [spritesheet-v1.png](spritesheet-v1.png) | Web-compatible v1 sprite sheet, 1536 x 1872 pixels, 57 active frames |
 | [preview.html](preview.html) | Self-contained interactive animation preview |
-| [docs/](docs/) | Public demo hosted at blog.audiofool.ai/prismo/ |
+| [docs/](docs/) | Static files for the GitHub Pages mirror |
 | [hermes/prismo-hermes.zip](hermes/prismo-hermes.zip) | Hermes pet package, nine rows and 51 active frames |
 | [hermes/](hermes/) | Hermes installation guide, manifest, and reproducible export script |
 | [prismo.json](prismo.json) | Sprite dimensions, frame counts, and direction order |
