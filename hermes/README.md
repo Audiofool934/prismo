@@ -4,7 +4,16 @@ Prismo works as a local pet in Hermes Agent and Hermes Desktop.
 The package contains `prismo/pet.json` and a transparent PNG sprite sheet.
 It does not require a plugin or a Petdex account.
 
-## Install
+## Petdex gallery
+
+Prismo was submitted to Petdex on October 22, 2026 under CC BY 4.0.
+The submission is **pending review** and is not yet searchable in the public gallery.
+After approval, open **Settings > Appearance > Pet** in Hermes Desktop, search for **Prismo**, and install it from the gallery.
+No terminal commands are needed for that Desktop flow.
+
+For now, use the download below.
+
+## Download now
 
 Run these commands on the machine that runs Hermes Agent.
 If Hermes Desktop connects over SSH, run them on the SSH host.
@@ -24,8 +33,8 @@ HERMES_HOME="$prismo_home" hermes pets select prismo
 
 The `-n` option preserves existing files.
 For an update, move the existing `pets/prismo` directory to a backup before extracting the new package.
-Prismo is distributed here as a local package, so `hermes pets install prismo` is not the installation command.
-That command searches the Petdex catalog.
+While the Petdex submission is pending, `hermes pets install prismo` cannot resolve the public catalog entry.
+Use the download commands above until the listing is approved.
 
 ## Hermes Desktop
 

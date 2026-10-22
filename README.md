@@ -10,9 +10,9 @@ Inspired by the prism and spectrum imagery of Pink Floyd's *The Dark Side of the
 
 ![Prismo cycling through its nine animations](assets/prismo.gif)
 
-## Get Prismo
+## Adopt Prismo
 
-Choose [ChatGPT](#chatgpt) or [Hermes Agent / Desktop](#hermes-agent--desktop).
+Choose [ChatGPT and dots](#chatgpt) or [Hermes](#hermes).
 
 ### ChatGPT
 
@@ -48,29 +48,18 @@ For clients and pet workflows that accept the newer v2 format, use [spritesheet.
 It includes all nine animations plus sixteen look directions.
 The web-compatible v1 file contains the same nine animations, with the two look-direction rows omitted.
 
-### Hermes Agent / Desktop
+### Hermes
 
-Download the [Hermes package](https://raw.githubusercontent.com/Audiofool934/prismo/main/hermes/prismo-hermes.zip).
-Run the following commands on the machine that runs **Hermes Agent**.
-For a Desktop connection over SSH, this means the remote host.
+**[Get Prismo for Hermes](hermes/README.md)**
 
-```sh
-prismo_home="${HERMES_HOME:-$HOME/.hermes}"
-curl -fL https://raw.githubusercontent.com/Audiofool934/prismo/main/hermes/prismo-hermes.zip -o prismo-hermes.zip
-mkdir -p "$prismo_home/pets"
-unzip -n prismo-hermes.zip -d "$prismo_home/pets"
-HERMES_HOME="$prismo_home" hermes pets select prismo
-```
+Prismo works in Hermes Agent and Hermes Desktop.
+Its Petdex submission is **pending review** as of October 22, 2026.
+It is not yet searchable in the public Hermes pet gallery.
+The [download and installation guide](hermes/README.md#download-now) provides a working package while review is pending.
 
-This uses the default profile unless you set `HERMES_HOME` to another profile's directory first.
-In Desktop, open **Settings > Appearance > Pet** on the same connection and profile to find Prismo and adjust its size.
-Reopen Settings if the gallery was already open during installation.
-The package is installed locally; `hermes pets install prismo` searches Petdex and is not the command for this download.
-
-The Hermes export keeps all nine animation rows and fits each complete loop into at most six frames.
-The wave and jump retain their four and five frames, respectively.
-The ChatGPT sheets and the high-resolution web demo remain separate.
-See the [Hermes installation and playback guide](hermes/README.md) for profile setup, checks, updates, and format details.
+Once Petdex approves the listing, you can search for **Prismo** in **Settings > Appearance > Pet** in Hermes Desktop and install it there.
+The command-line fallback and SSH/profile details live in the linked guide.
+The [Petdex package](petdex/) preserves complete Hermes loops and fills every frame expected by the Petdex player.
 
 ## Preview
 
@@ -91,6 +80,7 @@ An identical [GitHub Pages mirror](https://audiofool934.github.io/prismo/) is se
 | [docs/](docs/) | Static files for the GitHub Pages mirror |
 | [hermes/prismo-hermes.zip](hermes/prismo-hermes.zip) | Hermes pet package, nine rows and 51 active frames |
 | [hermes/](hermes/) | Hermes installation guide, manifest, and reproducible export script |
+| [petdex/](petdex/) | Petdex submission package and reproducible export script |
 | [prismo.json](prismo.json) | Sprite dimensions, frame counts, and direction order |
 | [assets/look-directions.png](assets/look-directions.png) | All sixteen look poses at native size |
 | [source/](source/) | Canonical artwork and selected generated animation strips |
@@ -111,3 +101,8 @@ The tops of the resting eyes align with the cell's horizontal centerline, leavin
 The artwork was made with OpenAI image generation and assembled from the selected source strips.
 The final v2 sheet passed structural, transparency, eye-clearance, and floating-hand separation checks across all 73 frames.
 The compatibility export preserves the first nine rows pixel for pixel.
+
+## Artwork license
+
+Prismo character artwork and animation sheets are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Credit **Audiofool**, link to this repository and the license, and indicate any changes.

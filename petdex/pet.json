@@ -1,0 +1,11 @@
+{
+  "id": "prismo",
+  "displayName": "Prismo",
+  "description": "Your friend from the dark side. A floating prism with white and rainbow hands. Inspired by Pink Floyd's The Dark Side of the Moon.",
+  "spritesheetPath": "spritesheet.png",
+  "spriteVersionNumber": 1,
+  "author": "Audiofool",
+  "source": "https://github.com/Audiofool934/prismo",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+}
