@@ -4,13 +4,17 @@ Your friend from the dark side.
 
 **[Play with Prismo - Live demo](https://prismo.audiofool.chatgpt.site)**
 
-Prismo is a small animated companion for **ChatGPT pets and dots**, with floating white and rainbow hands.
+Prismo is a small animated companion for **ChatGPT pets and dots** and **Hermes Agent / Desktop**, with floating white and rainbow hands.
 It blinks, waves, glides, thinks, and takes the occasional little leap.
 Inspired by the prism and spectrum imagery of Pink Floyd's *The Dark Side of the Moon*.
 
 ![Prismo cycling through its nine animations](assets/prismo.gif)
 
 ## Get Prismo
+
+Choose [ChatGPT](#chatgpt) or [Hermes Agent / Desktop](#hermes-agent--desktop).
+
+### ChatGPT
 
 **[Adopt Prismo](https://chatgpt.com/s/sharepet_6abe41c226b88191999c142ad5f6f384)**
 
@@ -44,6 +48,30 @@ For clients and pet workflows that accept the newer v2 format, use [spritesheet.
 It includes all nine animations plus sixteen look directions.
 The web-compatible v1 file contains the same nine animations, with the two look-direction rows omitted.
 
+### Hermes Agent / Desktop
+
+Download the [Hermes package](https://raw.githubusercontent.com/Audiofool934/prismo/main/hermes/prismo-hermes.zip).
+Run the following commands on the machine that runs **Hermes Agent**.
+For a Desktop connection over SSH, this means the remote host.
+
+```sh
+prismo_home="${HERMES_HOME:-$HOME/.hermes}"
+curl -fL https://raw.githubusercontent.com/Audiofool934/prismo/main/hermes/prismo-hermes.zip -o prismo-hermes.zip
+mkdir -p "$prismo_home/pets"
+unzip -n prismo-hermes.zip -d "$prismo_home/pets"
+HERMES_HOME="$prismo_home" hermes pets select prismo
+```
+
+This uses the default profile unless you set `HERMES_HOME` to another profile's directory first.
+In Desktop, open **Settings > Appearance > Pet** on the same connection and profile to find Prismo and adjust its size.
+Reopen Settings if the gallery was already open during installation.
+The package is installed locally; `hermes pets install prismo` searches Petdex and is not the command for this download.
+
+The Hermes export keeps all nine animation rows and fits each complete loop into at most six frames.
+The wave and jump retain their four and five frames, respectively.
+The ChatGPT sheets and the high-resolution web demo remain separate.
+See the [Hermes installation and playback guide](hermes/README.md) for profile setup, checks, updates, and format details.
+
 ## Preview
 
 Switch between the nine animations, pause, or select **Follow my pointer** to try the sixteen look directions.
@@ -51,7 +79,7 @@ The demo uses a dark backdrop and works on desktop and mobile.
 Its high-resolution artwork is drawn at your screen's pixel density, while the downloadable pet sheets keep their native upload dimensions.
 For an offline copy, choose **Code > Download ZIP**, extract it, and open `preview.html` in a browser.
 
-An identical [GitHub Pages mirror](https://audiofool.blog/prismo/) is served from `docs/`.
+An identical [GitHub Pages mirror](https://blog.audiofool.ai/prismo/) is served from `docs/`.
 
 ## Files
 
@@ -60,7 +88,9 @@ An identical [GitHub Pages mirror](https://audiofool.blog/prismo/) is served fro
 | [spritesheet.png](spritesheet.png) | Full v2 sprite sheet, 1536 x 2288 pixels, 73 active frames |
 | [spritesheet-v1.png](spritesheet-v1.png) | Web-compatible v1 sprite sheet, 1536 x 1872 pixels, 57 active frames |
 | [preview.html](preview.html) | Self-contained interactive animation preview |
-| [docs/](docs/) | Public demo hosted at audiofool.blog/prismo/ |
+| [docs/](docs/) | Public demo hosted at blog.audiofool.ai/prismo/ |
+| [hermes/prismo-hermes.zip](hermes/prismo-hermes.zip) | Hermes pet package, nine rows and 51 active frames |
+| [hermes/](hermes/) | Hermes installation guide, manifest, and reproducible export script |
 | [prismo.json](prismo.json) | Sprite dimensions, frame counts, and direction order |
 | [assets/look-directions.png](assets/look-directions.png) | All sixteen look poses at native size |
 | [source/](source/) | Canonical artwork and selected generated animation strips |
