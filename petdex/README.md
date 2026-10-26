@@ -2,8 +2,10 @@
 
 This is Prismo's distribution package for the Petdex gallery.
 The package contains `pet.json` and `spritesheet.png`.
-Submitted on October 22, 2026 under CC BY 4.0; the listing is pending review.
-It is not yet available in the public Petdex or Hermes catalog.
+Submitted on October 22, 2026 under CC BY 4.0 and approved on October 26, 2026.
+[Prismo is publicly available on Petdex](https://petdex.dev/pets/prismo) as entry #5161.
+Public catalog search, installation, and all nine animation rows were verified with Hermes Agent 0.22.5.
+For Hermes adoption, search for Prismo in the app's pet gallery or follow the [installation guide](../hermes/README.md#install-from-petdex).
 
 ## Format
 

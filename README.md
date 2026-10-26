@@ -50,15 +50,15 @@ The web-compatible v1 file contains the same nine animations, with the two look-
 
 ### Hermes
 
-**[Get Prismo for Hermes](hermes/README.md)**
+**[Adopt Prismo on Petdex](https://petdex.dev/pets/prismo)**
 
 Prismo works in Hermes Agent and Hermes Desktop.
-Its Petdex submission is **pending review** as of October 22, 2026.
-It is not yet searchable in the public Hermes pet gallery.
-The [download and installation guide](hermes/README.md#download-now) provides a working package while review is pending.
+It is available in the public Petdex and Hermes pet galleries.
+Open **Settings > Appearance > Pet** in Hermes Desktop, search for **Prismo**, and install it there.
 
-Once Petdex approves the listing, you can search for **Prismo** in **Settings > Appearance > Pet** in Hermes Desktop and install it there.
-The command-line fallback and SSH/profile details live in the linked guide.
+The website links to Prismo's public Petdex entry.
+Hermes does not currently provide a pet-install deep link, so complete adoption inside Hermes.
+The [installation guide](hermes/README.md#install-from-petdex) covers the command line, SSH connections, profiles, and a manual download.
 The [Petdex package](petdex/) preserves complete Hermes loops and fills every frame expected by the Petdex player.
 
 ## Preview
