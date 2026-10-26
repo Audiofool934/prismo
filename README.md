@@ -2,7 +2,7 @@
 
 Your friend from the dark side.
 
-**[Play with Prismo - Live demo](https://prismo.audiofool.chatgpt.site)**
+**[Play with Prismo - Live demo](https://prismo.audiofool.ai/)**
 
 Prismo is a small animated companion for **ChatGPT pets and dots** and **Hermes Agent / Desktop**, with floating white and rainbow hands.
 It blinks, waves, glides, thinks, and takes the occasional little leap.
@@ -68,7 +68,8 @@ The demo uses a dark backdrop and works on desktop and mobile.
 Its high-resolution artwork is drawn at your screen's pixel density, while the downloadable pet sheets keep their native upload dimensions.
 For an offline copy, choose **Code > Download ZIP**, extract it, and open `preview.html` in a browser.
 
-An identical [GitHub Pages mirror](https://audiofool934.github.io/prismo/) is served from `docs/`.
+GitHub Pages serves the demo from `docs/` at [prismo.audiofool.ai](https://prismo.audiofool.ai/).
+The original [GitHub Pages address](https://audiofool934.github.io/prismo/) redirects to the custom domain.
 
 ## Files
 
