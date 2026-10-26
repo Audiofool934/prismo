@@ -78,7 +78,7 @@ The original [GitHub Pages address](https://audiofool934.github.io/prismo/) redi
 | [spritesheet.png](spritesheet.png) | Full v2 sprite sheet, 1536 x 2288 pixels, 73 active frames |
 | [spritesheet-v1.png](spritesheet-v1.png) | Web-compatible v1 sprite sheet, 1536 x 1872 pixels, 57 active frames |
 | [preview.html](preview.html) | Self-contained interactive animation preview |
-| [docs/](docs/) | Static files for the GitHub Pages mirror |
+| [docs/](docs/) | Static files for the GitHub Pages website |
 | [hermes/prismo-hermes.zip](hermes/prismo-hermes.zip) | Hermes pet package, nine rows and 51 active frames |
 | [hermes/](hermes/) | Hermes installation guide, manifest, and reproducible export script |
 | [petdex/](petdex/) | Petdex submission package and reproducible export script |
